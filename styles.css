@@ -8,9 +8,14 @@ h2{
 label {
     font-weight: bold;
 }
+[class^="col-sm-*"] {
+    padding: 5px;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 
-input[type="text"],
-input[type="email"],
+}
+.row{
+	margin-bottom:10px;
+}
 select {
     width: 100%;
     padding: 10px;
