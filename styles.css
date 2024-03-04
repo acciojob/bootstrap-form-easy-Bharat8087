@@ -24,10 +24,10 @@ input:invalid {
     border-color: red;
 }
 .btn-primary:hover {
-    background-color: aquamarine;
+    background-color: blue;
 }
 .btn-primary {
-    background-color: aqua;
+    background-color: blue;
     color: yellow;
     border: none;
     padding: 10px 20px;
