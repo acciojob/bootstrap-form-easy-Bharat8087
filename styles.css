@@ -1,4 +1,4 @@
-.form-fill {
+.form-group {
     margin-bottom: 20px;
 	display:;
 }
@@ -23,9 +23,12 @@ select {
 input:invalid {
     border-color: red;
 }
-.button-primary {
+.btn-primary:hover {
     background-color: aquamarine;
-    color: green;
+}
+.btn-primary {
+    background-color: aqua;
+    color: yellow;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
