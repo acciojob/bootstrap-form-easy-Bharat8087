@@ -1,2 +1,32 @@
+.form-fill {
+    margin-bottom: 20px;
+	display:;
+}
+h2{
+	text-align:center;
+}
+label {
+    font-weight: bold;
+}
 
-/* Your CSS Code here. */
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.invalid-feedback {
+    color: red;
+}
+input:invalid {
+    border-color: red;
+}
+.button-primary {
+    background-color: aquamarine;
+    color: green;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
